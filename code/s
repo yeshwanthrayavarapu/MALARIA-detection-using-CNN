@@ -1,0 +1,13 @@
+function changeStripWidth() {
+  var input = document.getElementById('input').value;
+
+
+  document.getElementById('strip').style.width= input + "px";
+  
+}
+
+function changeStripHeight() {
+  var input1 = document.getElementById('input1').value;
+  
+  document.getElementById('strip').style.height= input1 + "px";
+}
